@@ -14,6 +14,9 @@ namespace oop_intro
             jani.Koszones();
 
             Console.WriteLine(jani);
+
+            Ember peti = new Ember("Peti", 20, 187);
+            peti.Koszones();
         }
     }
 }
